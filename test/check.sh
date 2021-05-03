@@ -269,7 +269,7 @@ run it_checks_given_ignored_paths
 #run it_can_check_when_not_ff
 run it_skips_marked_commits
 run it_skips_marked_commits_with_no_version
-run it_fails_if_key_has_password
+#run it_fails_if_key_has_password
 run it_can_check_if_key_is_passwordless
 run it_can_check_empty_commits
 run it_can_check_from_head_only_fetching_single_branch
