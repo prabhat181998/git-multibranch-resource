@@ -12,4 +12,4 @@ before_script:
 
 script:
   - docker login -u ${DOCKER_USERNAME} -p ${DOCKER_PASSWORD}
-  - docker buildx build --platform linux/amd64,linux/arm64 -t abhishek138/team-notification-resource:arm_latest .
+  - docker buildx build --platform linux/amd64,linux/arm64 -t abhishek138/git-multibranch-resource:arm_latest --push .
